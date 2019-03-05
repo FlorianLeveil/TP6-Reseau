@@ -2,7 +2,43 @@
 # Lab 2 : Un peu de complexité (et d'utilité ?...)
 ## 2. Mise en place du lab
 ### Checklist IP Routeurs + Nom de domaine
-Routeur1
+* Routeur1:
+```
+
+```
+* Routeur2:
+```
+
+```
+* Routeur3:
+```
+
+```
+* Routeur4:
+```
+
+```
+* Routeur5:
+```
+
+```
+### Checklist VMs
+* Serveur1:
+```
+
+```
+* Serveur2:
+```
+
+```
+* Routeur5:
+```
+
+```
+* Routeur5:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxODQyMDk0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTcyNjI5MjE0MCw3MzA5OTgxMTZdfQ==
 -->

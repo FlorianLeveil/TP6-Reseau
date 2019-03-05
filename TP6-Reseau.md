@@ -305,9 +305,11 @@ traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
  1  serveur1tp6.b1 (10.6.202.10)  1.011 ms !X  0.920 ms !X  0.941 ms !X
 ```
 # Lab 3 : Let's end this properly
+## 1. NAT : accès internet
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzg5NjkzNywtMjgzMzYxNDM1LC0xMj
-Q2MTQ5NDIsLTE2MDA4NTY5ODIsLTEyNDM5MjU0MjIsMTk1NDcw
-Mzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMT
+I0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3
+MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ
+==
 -->

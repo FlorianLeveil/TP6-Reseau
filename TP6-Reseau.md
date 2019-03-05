@@ -222,7 +222,7 @@ Serveur1 > Client1
 ```
 
 ```
-Serveur1 > Client1
+Serveur1 > Client2
 ```
 
 ```
@@ -230,12 +230,12 @@ Serveur2 > Client1
 ```
 
 ```
-Serveur1 > Client1
+Serveur2 > Client2
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE5OTY5OTEsLTE2MDA4NTY5ODIsLT
-EyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Njg0
-MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTI5MDU2Njc1MCwtMTYwMDg1Njk4MiwtMT
+I0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQz
+ODAsNzMwOTk4MTE2XX0=
 -->

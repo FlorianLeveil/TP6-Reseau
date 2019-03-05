@@ -50,7 +50,19 @@ Ethernet0/3                unassigned      YES NVRAM  administratively down down
 ### Checklist VMs
 * Serveur1:
 ```
-
+[root@serveur1tp6 ~]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:6a:d1:8c brd ff:ff:ff:ff:ff:ff
+    inet 10.6.202.10/24 brd 10.6.202.255 scope global noprefixroute enp0s3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe6a:d18c/64 scope link
+       valid_lft forever preferred_lft forever
 ```
 ```
 
@@ -79,7 +91,8 @@ Ethernet0/3                unassigned      YES NVRAM  administratively down down
        valid_lft forever preferred_lft forever
 ```
 ```
-
+[root@client1tp6 ~]# hostname --fqdn
+client1tp6.b1
 ```
 
 * Client2:
@@ -104,6 +117,6 @@ client2.tp6.b1
 ```
 ### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzk1OTAwLDk2Mzc1MDU2Miw5MDc2OD
+eyJoaXN0b3J5IjpbMjI5OTE3ODU3LDk2Mzc1MDU2Miw5MDc2OD
 QzODAsNzMwOTk4MTE2XX0=
 -->

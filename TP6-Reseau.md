@@ -286,20 +286,20 @@ Client1 > Client2
 ```
 
 ```
-Client2 > Client
+Client2 > Client1
 ```
 
 ```
-Client1 > Client2
+Serveur1> Serveur2
 ```
 
 ```
-Client1 > Client2
+Serveur2 > Serveur1
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTE1NDA0LC0xMjQ2MTQ5NDIsLTE2MD
-A4NTY5ODIsLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1
-NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQ5MjY1MDcwNSwtMTI0NjE0OTQyLC0xNj
+AwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUw
+NTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
 -->

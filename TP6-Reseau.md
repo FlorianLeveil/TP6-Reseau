@@ -31,11 +31,21 @@ Ethernet0/3                unassigned      YES NVRAM  administratively down down
 ```
 * Routeur4:
 ```
-
+r4.tp6.b1#show ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+Ethernet0/0                10.6.100.13     YES NVRAM  up                    up
+Ethernet0/1                10.6.100.6      YES NVRAM  up                    up
+Ethernet0/2                unassigned      YES NVRAM  administratively down down
+Ethernet0/3                unassigned      YES NVRAM  administratively down down
 ```
 * Routeur5:
 ```
-
+r5.tp6.b1#show ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+Ethernet0/0                10.6.101.2      YES NVRAM  up                    up
+Ethernet0/1                10.6.201.254    YES NVRAM  up                    up
+Ethernet0/2                unassigned      YES NVRAM  administratively down down
+Ethernet0/3                unassigned      YES NVRAM  administratively down down
 ```
 ### Checklist VMs
 * Serveur1:
@@ -56,6 +66,6 @@ Ethernet0/3                unassigned      YES NVRAM  administratively down down
 ```
 ### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2ODM1Njk5LDkwNzY4NDM4MCw3MzA5OT
+eyJoaXN0b3J5IjpbOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OT
 gxMTZdfQ==
 -->

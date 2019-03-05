@@ -129,8 +129,25 @@ client1tp6.b1
 [root@client2 ~]# hostname --fqdn
 client2.tp6.b1
 ```
+#### Check fichiers hosts
+* Serveur1:
+```
+
+```
+* Serveur2:
+```
+
+```
+* Client1:
+```
+
+```
+* :
+```
+
+```
 ### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Nj
-g0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExODA4NjU0MzEsMTk1NDcwMzc4NCw5Nj
+M3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
 -->

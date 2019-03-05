@@ -1,7 +1,4 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+# B1 Réseau 2018 - TP6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTU2ODQyNjkyNyw3MzA5OTgxMTZdfQ==
 -->

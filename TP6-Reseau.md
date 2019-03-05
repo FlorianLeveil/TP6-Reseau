@@ -132,11 +132,21 @@ client2.tp6.b1
 #### Check fichiers hosts
 * Serveur1:
 ```
-
+[root@serveur1tp6 etc]# cat hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.6.201.10 client1tp6.b1
+10.6.201.11 client2tp6.b1
+10.6.202.11 serveur2tp6.b1
 ```
 * Serveur2:
 ```
-
+[root@serveur2tp6 etc]# cat hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.6.201.10 client1tp6.b1
+10.6.201.11 client2tp6.b1
+10.6.202.10 serveur1tp6.b1
 ```
 * Client1:
 ```
@@ -148,6 +158,6 @@ client2.tp6.b1
 ```
 ### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTg4ODg4NiwxOTU0NzAzNzg0LDk2Mz
+eyJoaXN0b3J5IjpbLTUwMjc1OTQ0NywxOTU0NzAzNzg0LDk2Mz
 c1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

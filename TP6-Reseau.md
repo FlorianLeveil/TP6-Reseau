@@ -204,7 +204,13 @@ Neighbor ID     Pri   State           Dead Time   Address         Interface
 
 Client1 > Serveur1
 ```
-
+[root@client1tp6 etc]# traceroute serveur1tp6.b1
+traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
+ 1  gateway (10.6.201.254)  6.104 ms  5.896 ms  5.776 ms
+ 2  10.6.101.1 (10.6.101.1)  15.819 ms  15.705 ms  15.624 ms
+ 3  10.6.100.13 (10.6.100.13)  36.867 ms  36.748 ms  37.003 ms
+ 4  10.6.100.5 (10.6.100.5)  47.245 ms  47.126 ms  47.132 ms
+ 5  serveur1tp6.b1 (10.6.202.10)  57.814 ms !X  57.693 ms !X  57.700 ms !X
 ```
 Client1 > Serveur2
 ```
@@ -212,7 +218,13 @@ Client1 > Serveur2
 ```
 Client2 > Serveur1
 ```
-
+[root@client2 etc]# traceroute serveur1tp6.b1
+traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
+ 1  gateway (10.6.201.254)  24.338 ms  24.109 ms  24.204 ms
+ 2  10.6.101.1 (10.6.101.1)  45.485 ms  45.498 ms  45.709 ms
+ 3  10.6.100.13 (10.6.100.13)  56.607 ms  56.749 ms  67.687 ms
+ 4  10.6.100.5 (10.6.100.5)  78.810 ms  88.914 ms  88.995 ms
+ 5  serveur1tp6.b1 (10.6.202.10)  89.101 ms !X  89.188 ms !X  89.281 ms !X
 ```
 Client2 > Serveur2
 ```
@@ -235,7 +247,7 @@ Serveur2 > Client2
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDU2Njc1MCwtMTYwMDg1Njk4MiwtMT
+eyJoaXN0b3J5IjpbMjA1NDYwMjM1NywtMTYwMDg1Njk4MiwtMT
 I0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQz
 ODAsNzMwOTk4MTE2XX0=
 -->

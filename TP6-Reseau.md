@@ -304,8 +304,10 @@ Serveur2 > Serveur1
 traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
  1  serveur1tp6.b1 (10.6.202.10)  1.011 ms !X  0.920 ms !X  0.941 ms !X
 ```
+# Lab 3 : Let's end this properly
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1OTcwNjA1LC0yODMzNjE0MzUsLTEyND
-YxNDk0MiwtMTYwMDg1Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAz
-Nzg0LDk2Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTMzNzg5NjkzNywtMjgzMzYxNDM1LC0xMj
+Q2MTQ5NDIsLTE2MDA4NTY5ODIsLTEyNDM5MjU0MjIsMTk1NDcw
+Mzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
 -->

@@ -166,8 +166,11 @@ client2.tp6.b1
 10.6.202.10 serveur1tp6.b1
 10.6.202.11 serveur2tp6.b1
 ```
-### Vérifier que tout ça fonctionne
+### Configuration de OSPF
+#### Pour vérifier que ça fonctionne:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5Nj
-M3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTk4NjA4NzQ1LC0xMjQzOTI1NDIyLDE5NT
+Q3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZd
+fQ==
 -->

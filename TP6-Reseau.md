@@ -197,10 +197,11 @@ Neighbor ID     Pri   State           Dead Time   Address         Interface
 ```
 Routeur5:
 ```
-
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+3.3.3.3           1   FULL/BDR        00:00:37    10.6.101.1      Ethernet0/0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMjgzOTc2LC0xMjQzOTI1NDIyLDE5NT
-Q3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MDA4NTY5ODIsLTEyNDM5MjU0MjIsMT
+k1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODEx
+Nl19
 -->

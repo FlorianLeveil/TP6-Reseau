@@ -200,8 +200,10 @@ Routeur5:
 Neighbor ID     Pri   State           Dead Time   Address         Interface
 3.3.3.3           1   FULL/BDR        00:00:37    10.6.101.1      Ethernet0/0
 ```
+* traceroute:
+Client1 > Serveur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA4NTY5ODIsLTEyNDM5MjU0MjIsMT
-k1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbMzYzNzEwNDI2LC0xNjAwODU2OTgyLC0xMj
+QzOTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4
+MCw3MzA5OTgxMTZdfQ==
 -->

@@ -294,14 +294,18 @@ traceroute to client1tp6.b1 (10.6.201.10), 30 hops max, 60 byte packets
 ```
 Serveur1> Serveur2
 ```
-
+[root@serveur1tp6 etc]# traceroute serveur2tp6.b1
+traceroute to serveur2tp6.b1 (10.6.202.11), 30 hops max, 60 byte packets
+ 1  serveur2tp6.b1 (10.6.202.11)  2.050 ms !X  1.884 ms !X  2.176 ms !X
 ```
 Serveur2 > Serveur1
 ```
-
+[root@serveur2tp6 etc]# traceroute serveur1tp6.b1
+traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
+ 1  serveur1tp6.b1 (10.6.202.10)  1.011 ms !X  0.920 ms !X  0.941 ms !X
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNj
-AwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUw
-NTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTY1OTcwNjA1LC0yODMzNjE0MzUsLTEyND
+YxNDk0MiwtMTYwMDg1Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAz
+Nzg0LDk2Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

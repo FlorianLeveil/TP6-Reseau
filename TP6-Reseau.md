@@ -172,26 +172,35 @@ client2.tp6.b1
 
 Routeur1:
 ```
-
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+4.4.4.4           1   FULL/BDR        00:00:38    10.6.100.6      Ethernet0/1
+2.2.2.2           1   FULL/BDR        00:00:36    10.6.100.2      Ethernet0/0
 ```
 Routeur2:
 ```
-
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+3.3.3.3           1   FULL/BDR        00:00:34    10.6.100.10     Ethernet0/1
+1.1.1.1           1   FULL/DR         00:00:34    10.6.100.1      Ethernet0/0
 ```
 Routeur3:
 ```
-
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+4.4.4.4           1   FULL/BDR        00:00:36    10.6.100.13     Ethernet0/0
+2.2.2.2           1   FULL/DR         00:00:35    10.6.100.9      Ethernet0/1
+5.5.5.5           1   FULL/DR         00:00:36    10.6.101.2      Ethernet0/2
 ```
 Routeur4:
 ```
-
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+3.3.3.3           1   FULL/DR         00:00:34    10.6.100.14     Ethernet0/0
+1.1.1.1           1   FULL/DR         00:00:34    10.6.100.5      Ethernet0/1
 ```
 Routeur5:
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTkwOTc2MSwtMTI0MzkyNTQyMiwxOT
-U0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbODUwMjgzOTc2LC0xMjQzOTI1NDIyLDE5NT
+Q3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZd
+fQ==
 -->

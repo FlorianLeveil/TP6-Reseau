@@ -244,11 +244,23 @@ traceroute to serveur2tp6.b1 (10.6.202.11), 30 hops max, 60 byte packets
 ```
 Serveur1 > Client1
 ```
-
+[root@serveur1tp6 etc]# traceroute client1tp6.b1
+traceroute to client1tp6.b1 (10.6.201.10), 30 hops max, 60 byte packets
+ 1  gateway (10.6.202.254)  9.663 ms  9.462 ms  9.467 ms
+ 2  10.6.100.6 (10.6.100.6)  30.479 ms  30.409 ms  30.458 ms
+ 3  10.6.100.14 (10.6.100.14)  40.908 ms  40.796 ms  40.732 ms
+ 4  10.6.101.2 (10.6.101.2)  62.073 ms  61.964 ms  62.281 ms
+ 5  client1tp6.b1 (10.6.201.10)  72.237 ms !X  72.357 ms !X  72.232 ms !X
 ```
 Serveur1 > Client2
 ```
-
+[root@serveur1tp6 etc]# traceroute client2tp6.b1
+traceroute to client2tp6.b1 (10.6.201.11), 30 hops max, 60 byte packets
+ 1  gateway (10.6.202.254)  8.775 ms  8.602 ms  8.645 ms
+ 2  10.6.100.2 (10.6.100.2)  18.808 ms  18.698 ms  18.814 ms
+ 3  10.6.100.10 (10.6.100.10)  39.827 ms  39.717 ms  39.654 ms
+ 4  10.6.101.2 (10.6.101.2)  60.805 ms  60.701 ms  60.722 ms
+ 5  client2tp6.b1 (10.6.201.11)  71.435 ms !X  71.327 ms !X  71.463 ms !X
 ```
 Serveur2 > Client1
 ```
@@ -259,7 +271,7 @@ Serveur2 > Client2
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYxNDk0MiwtMTYwMDg1Njk4MiwtMT
-I0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQz
-ODAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1NDQ5NzUzNjUsLTEyNDYxNDk0MiwtMT
+YwMDg1Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1
+MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

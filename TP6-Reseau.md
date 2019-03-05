@@ -142,12 +142,12 @@ client2.tp6.b1
 ```
 
 ```
-* :
+* Client2:
 ```
 
 ```
 ### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA4NjU0MzEsMTk1NDcwMzc4NCw5Nj
-M3NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA0OTg4ODg4NiwxOTU0NzAzNzg0LDk2Mz
+c1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

@@ -168,9 +168,21 @@ client2.tp6.b1
 ```
 ### Configuration de OSPF
 #### Pour vérifier que ça fonctionne:
+* show ip ospf neigh:
+Routeur1:
+```
 
+```
+Routeur1:
+```
+
+```
+Routeur1:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjA4NzQ1LC0xMjQzOTI1NDIyLDE5NT
-Q3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbMTIxMzk3OTE0OSwtMTI0MzkyNTQyMiwxOT
+U0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2
+XX0=
 -->

@@ -31,14 +31,15 @@
 ```
 
 ```
-* Routeur5:
+* Client1:
 ```
 
 ```
-* Routeur5:
+* Client2:
 ```
 
 ```
+### Vérifier que tout ça fonctionne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjI5MjE0MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTA3Njg0MzgwLDczMDk5ODExNl19
 -->

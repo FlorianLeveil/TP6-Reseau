@@ -625,14 +625,33 @@ The document has moved
 <A HREF="http://www.google.com/">here</A>.
 </BODY></HTML>
 ```
+* Faire
+```
+r1.tp6.b1#telnet trip-hop.net 80
+Translating "trip-hop.net"...domain server (8.8.8.8) [OK]
+Trying trip-hop.net (213.186.33.4, 80)... Open
+GET /
+HTTP/1.1 400 Bad Request
+Date: Tue, 12 Mar 2019 10:51:29 GMT
+Cache-Control: no-cache
+Content-Type: text/html
+X-Cache: MISS from PF1-BOR1FR
+X-Cache-Lookup: MISS from PF1-BOR1FR:3128
+Connection: close
 
+<html><body><h1>400 Bad request</h1>
+                                    Your browser sent an invalid request.
+                                                                         </body></html>
 
+[Connection to trip-hop.net closed by foreign host]
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk1MjA2OTYsLTgzNDk0OTczLC0xMD
-MyNDA0NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1
-Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Mi
-w5MDc2ODQzODAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQ4MzA3ODM1OCwtMTI2OTUyMDY5NiwtOD
+M0OTQ5NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0
+OTQyLC0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3OD
+QsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
 -->

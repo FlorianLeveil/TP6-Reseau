@@ -770,7 +770,8 @@ Connection: close
 ## 3. Serveur DHCP
 * Mettre en route le DHCP:
 ```
-
+[root@client2 etc]# sudo systemctl start dhcpd
+```
 
 * Mettre client en DHCP  `client1.tp6.b1`:
 ```
@@ -798,7 +799,7 @@ ONBOOT=yes
        valid_lft forever preferred_lft forever
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTQ0OTIxNiwzNTM5MTYwNjcsLTE1Nj
+eyJoaXN0b3J5IjpbLTc5MjE4MTc3OCwzNTM5MTYwNjcsLTE1Nj
 MzNDg4ODMsLTEyNjk1MjA2OTYsLTgzNDk0OTczLC0xMDMyNDA0
 NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1Njk4Mi
 wtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2

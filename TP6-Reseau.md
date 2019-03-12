@@ -768,19 +768,39 @@ Connection: close
 ```
 **YOUPI ça marche !!**
 ## 3. Serveur DHCP
+* Mettre en route le DHCP:
+```
+
 
 * Mettre client en DHCP  `client1.tp6.b1`:
 ```
+[root@client1tp6 network-scripts]# cat ifcfg-enp0s3
+NAME=enp0s3
+DEVICE=enp0s3
 
+BOOTPROTO=dhcp
+ONBOOT=yes
 ```
 * ip a du  `client1.tp6.b1`:
 ```
-
+[root@client1tp6 network-scripts]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:87:3f:40 brd ff:ff:ff:ff:ff:ff
+    inet 10.6.201.50/24 brd 10.6.201.255 scope global noprefixroute dynamic enp0s3
+       valid_lft 528sec preferred_lft 528sec
+    inet6 fe80::a00:27ff:fe87:3f40/64 scope link
+       valid_lft forever preferred_lft forever
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkwNTA2OTAsMzUzOTE2MDY3LC0xNT
-YzMzQ4ODgzLC0xMjY5NTIwNjk2LC04MzQ5NDk3MywtMTAzMjQw
-NDQ1NCwtMjgzMzYxNDM1LC0xMjQ2MTQ5NDIsLTE2MDA4NTY5OD
-IsLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOTA3
-Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTU3NTQ0OTIxNiwzNTM5MTYwNjcsLTE1Nj
+MzNDg4ODMsLTEyNjk1MjA2OTYsLTgzNDk0OTczLC0xMDMyNDA0
+NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1Njk4Mi
+wtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2
+ODQzODAsNzMwOTk4MTE2XX0=
 -->

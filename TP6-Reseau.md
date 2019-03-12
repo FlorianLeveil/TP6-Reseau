@@ -307,9 +307,15 @@ traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
 # Lab 3 : Let's end this properly
 ## 1. NAT : accès internet
 
+
+# Requête web vers un site full HTTP, avec résolution de nom
+* Utilisation de la commande: `telnet trip-hop.net 80 GET /`:
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMT
-I0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3
-MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbLTE1MzA0NjcyMjIsLTEwMzI0MDQ0NTQsLT
+I4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQz
+OTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MC
+w3MzA5OTgxMTZdfQ==
 -->

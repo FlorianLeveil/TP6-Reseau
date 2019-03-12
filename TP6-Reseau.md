@@ -625,7 +625,7 @@ The document has moved
 <A HREF="http://www.google.com/">here</A>.
 </BODY></HTML>
 ```
-* Faire
+* Faire une requête web vers un site full HTTP, avec résolution de nom depuis Routeur1:
 ```
 r1.tp6.b1#telnet trip-hop.net 80
 Translating "trip-hop.net"...domain server (8.8.8.8) [OK]
@@ -644,13 +644,12 @@ Connection: close
                                                                          </body></html>
 
 [Connection to trip-hop.net closed by foreign host]
-
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzA3ODM1OCwtMTI2OTUyMDY5NiwtOD
+eyJoaXN0b3J5IjpbLTkzOTAwMTkwOCwtMTI2OTUyMDY5NiwtOD
 M0OTQ5NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0
 OTQyLC0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3OD
 QsOTYzNzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==

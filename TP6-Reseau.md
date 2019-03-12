@@ -617,7 +617,13 @@ O*E2 0.0.0.0/0 [110/1] via 10.6.101.1, 00:24:21, Ethernet0/0
 ```
 * Faire un `curl google.com` depuis un des client:
 ```
-
+[root@client1tp6 ~]# curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 ```
 
 
@@ -625,8 +631,8 @@ O*E2 0.0.0.0/0 [110/1] via 10.6.101.1, 00:24:21, Ethernet0/0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTE1OTM2LC04MzQ5NDk3MywtMTAzMj
-QwNDQ1NCwtMjgzMzYxNDM1LC0xMjQ2MTQ5NDIsLTE2MDA4NTY5
-ODIsLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOT
-A3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEyNjk1MjA2OTYsLTgzNDk0OTczLC0xMD
+MyNDA0NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1
+Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Mi
+w5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

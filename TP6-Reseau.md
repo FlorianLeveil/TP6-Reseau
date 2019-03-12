@@ -311,14 +311,193 @@ traceroute to serveur1tp6.b1 (10.6.202.10), 30 hops max, 60 byte packets
 # Requête web vers un site full HTTP, avec résolution de nom
 * Utilisation de la commande: `telnet trip-hop.net 80 GET /`:
 ```
+r4.tp6.b1#telnet trip-hop.net 80
+Trying trip-hop.net (213.186.33.4, 80)... Open
+GET/
+HTTP/1.1 400 Bad Request
+Server: squid
+Mime-Version: 1.0
+Date: Tue, 12 Mar 2019 10:31:22 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 4104
+X-Squid-Error: ERR_INVALID_REQ 0
+Vary: Accept-Language
+Content-Language: fr
+X-Cache: MISS from PF1-BOR1FR
+X-Cache-Lookup: NONE from PF1-BOR1FR:3128
+Connection: close
 
+
+<html><head>
+            <meta type="copyright" content="Copyright (C) 1996-2017 The Squid Software Foundation and contributors">
+                                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                                 <title>ERREUR : l'URL demandée n'a pas pu être chargée</title>
+                    <style type="text/css"><!--
+                                                 /*
+                                                    * Copyright (C) 1996-2017 The Squid Software Foundation and contributors
+                                                  *
+                                                    * Squid software is distributed under GPLv2+ license and includes
+                                           * contributions from numerous individuals and organizations.
+                             * Please see the COPYING and CONTRIBUTORS files for details.
+               */
+
+                 /*
+                    Stylesheet for Squid Error pages
+                                                     Adapted from design by Free CSS Templates
+                    http://www.freecsstemplates.org
+                                                    Released for free under a Creative Commons Attribution 2.5 License
+                                           */
+
+                                             /* Page basics */
+                                                              * {
+                                                                        font-family: verdana, sans-serif;
+                              }
+
+                               html body {
+                                                margin: 0;
+                                                                padding: 0;
+                                                                          background: #efefef;
+                        font-size: 12px;
+                                                color: #1e1e1e;
+                                                               }
+
+                                                                /* Page displayed title area */
+                    #titles {
+                                margin-left: 15px;
+                                                        padding: 10px;
+                                                                        padding-left: 100px;
+                        background: url('/squid-internal-static/icons/SN.png') no-repeat left;
+                   }
+
+                    /* initial title */
+                                       #titles h1 {
+                                                        color: #000000;
+                                                                       }
+                                                                        #titles h2 {
+                color: #000000;
+                               }
+
+                                /* special event: FTP success page titles */
+ #titles ftpsuccess {
+                        background-color:#00ff00;
+                                                        width:100%;
+                                                                   }
+
+                                                                    /* Page displayed body content area */
+                               #content {
+                                                padding: 10px;
+                                                                background: #ffffff;
+         }
+
+          /* General text */
+                            p {
+                               }
+
+                                /* error brief description */
+                                                             #error p {
+                                                                       }
+
+                                                                        /* some data which may have caused the problem */
+                                              #data {
+                                                     }
+
+                                                      /* the error message received from the system or other software */
+                                             #sysmsg {
+                                                      }
+
+                                                       pre {
+                                                                font-family:sans-serif;
+            }
+
+             /* special event: FTP / Gopher directory listing */
+                                                                #dirmsg {
+                                                                             font-family: courier;
+                           color: black;
+                                            font-size: 10pt;
+                                                            }
+                                                             #dirlisting {
+                                                                              margin-left: 2%;
+                       margin-right: 2%;
+                                        }
+                                         #dirlisting tr.entry td.icon,td.filename,td.size,td.date {
+                            border-bottom: groove;
+                                                  }
+                                                   #dirlisting td.size {
+                                                                            width: 50px;
+                 text-align: right;
+                                       padding-right: 5px;
+                                                          }
+
+                                                           /* horizontal lines */
+      hr {
+                margin: 0;
+                          }
+
+                           /* page displayed footer area */
+                                                           #footer {
+                                                                        font-size: 9px;
+                padding-left: 10px;
+                                   }
+
+
+                                    body
+                                        :lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
+                                                                :lang(he) { direction: rtl; }
+                   --></style>
+                              </head><body id="ERR_INVALID_REQ">
+                                                                <div id="titles">
+      <h1>ERREUR</h1>
+                     <h2>L'URL demandée n'a pas pu être trouvé</h2>
+                                                                   </div>
+                                                                         <hr>
+
+  <div id="content">
+                    <p><b>Requête invalide</b> une erreur a été rencontrée en essayant de traiter la requête :</p>
+
+                                       <blockquote id="data">
+                                                             <pre>GET/
+</pre>
+      </blockquote>
+
+                   <p>Problèmes possibles :</p>
+                                               <ul>
+                                                   <li id="missing-method"><p>Requête de la méthode non précisée ou inconnue.</p></li>
+                                                           <li id="missing-url"><p>L'URL n'est pas spécifiée</p></li>
+                                          <li id="missing-protocol"><p>L'identifiant HTTP est absent pour (HTTP/1.0).</p></li>
+                                                   <li><p>La requête est trop grande</p></li>
+                  <li><p>Le champ "Content-Length" est absent, pour l'utilisation des requêtes avec POST ou PUT</p></li>
+                                             <li><p>Caractère illégal dans le nom d'hôte; Le caractère tiret bas n'est pas autorisé.</p></li>
+                                                                  <li><p>HTTP/1.1 <q>Expect:</q> cette fonction a besoin du logiciel HTTP/1.0.</p></li>
+ </ul>
+
+      <p>Votre administrateur proxy est <a href="mailto:support@ynov-bordeaux.com?subject=CacheErrorInfo%20-%20ERR_INVALID_REQ&amp;body=CacheHost%3A%20PF1-BOR1FR%0D%0AErrPage%3A%20ERR_INVALID_REQ%0D%0AErr%3A%20%5Bnone%5D%0D%0ATimeStamp%3A%20Tue,%2012%20Mar%202019%2010%3A31%3A22%20GMT%0D%0A%0D%0AClientIP%3A%2010.33.1.153%0D%0A%0D%0AHTTP%20Request%3A%0D%0A%0D%0A%0D%0A">support@ynov-bordeaux.com</a>.</p>
+                             <br>
+                                 </div>
+
+                                       <script language="javascript">
+                                                                     if ('[unknown method]' != '[unknown method]') document.getElementById('missing-method').style.display = 'none';
+                              if ('error:invalid-request' != '[no URL]') document.getElementById('missing-url').style.display = 'none';
+                                                            if ('[unknown protocol]' != '[unknown protocol]') document.getElementById('missing-protocol').style.display = 'none';
+                           </script>
+
+                                    <hr>
+                                        <div id="footer">
+                                                         <p>Générée le Tue, 12 Mar 2019 10:31:22 GMT par PF1-BOR1FR (squid)</p>
+                                                    <!-- ERR_INVALID_REQ -->
+ </div>
+       </body></html>
+
+[Connection to trip-hop.net closed by foreign host]
 ```
+**Efectivement il y a beaucoup HTML !!!**
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE5NTMyMjAsLTEwMzI0MDQ0NTQsLT
-I4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQz
-OTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MC
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTUxMTEyNTMwMSwtMTAzMjQwNDQ1NCwtMj
+gzMzYxNDM1LC0xMjQ2MTQ5NDIsLTE2MDA4NTY5ODIsLTEyNDM5
+MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLD
+czMDk5ODExNl19
 -->

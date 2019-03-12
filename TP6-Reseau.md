@@ -490,14 +490,16 @@ Connection: close
 [Connection to trip-hop.net closed by foreign host]
 ```
 **Efectivement il y a beaucoup HTML !!!**
+* Vérification des passerelles par défaut des routeurs:
+Rout
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTEyNTMwMSwtMTAzMjQwNDQ1NCwtMj
-gzMzYxNDM1LC0xMjQ2MTQ5NDIsLTE2MDA4NTY5ODIsLTEyNDM5
-MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOTA3Njg0MzgwLD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNzEzMjUxMjgsLTEwMzI0MDQ0NTQsLT
+I4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQz
+OTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MC
+w3MzA5OTgxMTZdfQ==
 -->

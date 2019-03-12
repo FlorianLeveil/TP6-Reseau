@@ -570,10 +570,49 @@ O*E2 0.0.0.0/0 [110/1] via 10.6.100.13, 00:24:32, Ethernet0/0
 ```
 Routeur4:
 ```
+r4.tp6.b1#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
 
+Gateway of last resort is 192.168.122.1 to network 0.0.0.0
+
+C    192.168.122.0/24 is directly connected, Ethernet0/2
+     10.0.0.0/8 is variably subnetted, 7 subnets, 2 masks
+O       10.6.100.8/30 [110/20] via 10.6.100.14, 00:24:30, Ethernet0/0
+C       10.6.100.12/30 is directly connected, Ethernet0/0
+O       10.6.100.0/30 [110/20] via 10.6.100.5, 00:24:30, Ethernet0/1
+O IA    10.6.101.0/30 [110/20] via 10.6.100.14, 00:24:30, Ethernet0/0
+C       10.6.100.4/30 is directly connected, Ethernet0/1
+O IA    10.6.201.0/24 [110/30] via 10.6.100.14, 00:24:31, Ethernet0/0
+O IA    10.6.202.0/24 [110/20] via 10.6.1
 ```
 Routeur5:
 ```
+r5.tp6.b1#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 10.6.101.1 to network 0.0.0.0
+
+     10.0.0.0/8 is variably subnetted, 7 subnets, 2 masks
+O IA    10.6.100.8/30 [110/20] via 10.6.101.1, 01:01:21, Ethernet0/0
+O IA    10.6.100.12/30 [110/20] via 10.6.101.1, 01:01:12, Ethernet0/0
+O IA    10.6.100.0/30 [110/30] via 10.6.101.1, 01:01:21, Ethernet0/0
+C       10.6.101.0/30 is directly connected, Ethernet0/0
+O IA    10.6.100.4/30 [110/30] via 10.6.101.1, 01:01:12, Ethernet0/0
+C       10.6.201.0/24 is directly connected, Ethernet0/1
+O IA    10.6.202.0/24 [110/40] via 10.6.101.1, 01:01:22, Ethernet0/0
+O*E2 0.0.0.0/0 [110/1] via 10.6.101.1, 00:24:21, Ethernet0/0
 
 ```
 
@@ -582,8 +621,8 @@ Routeur5:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDE5OTE2LC04MzQ5NDk3MywtMTAzMj
-QwNDQ1NCwtMjgzMzYxNDM1LC0xMjQ2MTQ5NDIsLTE2MDA4NTY5
-ODIsLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3NTA1NjIsOT
-A3Njg0MzgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTM5MDQwNjAyNCwtODM0OTQ5NzMsLTEwMz
+I0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNjAwODU2
+OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLD
+kwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
 -->

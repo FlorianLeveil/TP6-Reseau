@@ -491,15 +491,35 @@ Connection: close
 ```
 **Efectivement il y a beaucoup HTML !!!**
 * Vérification des passerelles par défaut des routeurs:
-Rout
+
+Routeur1:
+```
+
+```
+Routeur2:
+```
+
+```
+Routeur3:
+```
+
+```
+Routeur4:
+```
+
+```
+Routeur5:
+```
+
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzEzMjUxMjgsLTEwMzI0MDQ0NTQsLT
-I4MzM2MTQzNSwtMTI0NjE0OTQyLC0xNjAwODU2OTgyLC0xMjQz
-OTI1NDIyLDE5NTQ3MDM3ODQsOTYzNzUwNTYyLDkwNzY4NDM4MC
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTgzNDk0OTczLC0xMDMyNDA0NDU0LC0yOD
+MzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1Njk4MiwtMTI0Mzky
+NTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2ODQzODAsNz
+MwOTk4MTE2XX0=
 -->

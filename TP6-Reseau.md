@@ -825,7 +825,7 @@ sudo systemctl start named
 sudo systemctl enable named
 ```
 ### Pour tester :
-**depuis `server1.tp6.b1` lui-même, ou n'importe quelle machine Linux qui peut le joindre (les clients):**
+**Depuis `server1.tp6.b1` lui-même, ou n'importe quelle machine Linux qui peut le joindre (les clients):**
 * A quelle IP correspond "server1.tp6.b1" ?
 
 ```
@@ -858,9 +858,9 @@ dig -x 10.6.201.10
 6.10.in-addr.arpa.      86400   IN      NS      server1.tp6.b1.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Njg2ODc0MCwtNzkyMTgxNzc4LDM1Mz
-kxNjA2NywtMTU2MzM0ODg4MywtMTI2OTUyMDY5NiwtODM0OTQ5
-NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC
-0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYz
-NzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODMxMzYzOTMyLC03OTIxODE3NzgsMzUzOT
+E2MDY3LC0xNTYzMzQ4ODgzLC0xMjY5NTIwNjk2LC04MzQ5NDk3
+MywtMTAzMjQwNDQ1NCwtMjgzMzYxNDM1LC0xMjQ2MTQ5NDIsLT
+E2MDA4NTY5ODIsLTEyNDM5MjU0MjIsMTk1NDcwMzc4NCw5NjM3
+NTA1NjIsOTA3Njg0MzgwLDczMDk5ODExNl19
 -->

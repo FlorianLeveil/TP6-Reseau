@@ -825,12 +825,42 @@ sudo systemctl start named
 sudo systemctl enable named
 ```
 ### Pour tester :
-* depuis `server1.tp6.b1` lui-même, ou n'importe quelle machine Linux qui peut le joindre (les clients):
+**depuis `server1.tp6.b1` lui-même, ou n'importe quelle machine Linux qui peut le joindre (les clients):**
+* A quelle IP correspond "server1.tp6.b1" ?
 
+```
+dig server1.tp6.b1
+;; ANSWER SECTION:
+server1.tp6.b1.         604800  IN      A       10.6.202.10
+
+```
+
+* A quelle IP correspond "client2.tp6.b1" ?
+
+```
+dig client2.tp6.b1
+;; ANSWER SECTION:
+client2.tp6.b1.         604800  IN      A       10.6.201.10
+
+;; AUTHORITY SECTION:
+tp6.b1.                 604800  IN      NS      server1.tp6.b1.
+
+```
+
+* A quel nom de domaine correspond l'IP 10.6.201.10 ?
+
+```
+dig -x 10.6.201.10
+;; ANSWER SECTION:
+10.201.6.10.in-addr.arpa. 86400 IN      PTR     client1.tp6.b1.
+
+;; AUTHORITY SECTION:
+6.10.in-addr.arpa.      86400   IN      NS      server1.tp6.b1.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU3MDIwODUsLTc5MjE4MTc3OCwzNT
-M5MTYwNjcsLTE1NjMzNDg4ODMsLTEyNjk1MjA2OTYsLTgzNDk0
-OTczLC0xMDMyNDA0NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0Mi
-wtMTYwMDg1Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2
-Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTg3Njg2ODc0MCwtNzkyMTgxNzc4LDM1Mz
+kxNjA2NywtMTU2MzM0ODg4MywtMTI2OTUyMDY5NiwtODM0OTQ5
+NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC
+0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYz
+NzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
 -->

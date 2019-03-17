@@ -824,10 +824,13 @@ sudo systemctl start named
 # Faire en sorte que le service démarre au boot de la VM
 sudo systemctl enable named
 ```
+### Pour tester :
+* depuis `server1.tp6.b1` lui-même, ou n'importe quelle machine Linux qui peut le joindre (les clients):
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTE3NjU4MiwtNzkyMTgxNzc4LDM1Mz
-kxNjA2NywtMTU2MzM0ODg4MywtMTI2OTUyMDY5NiwtODM0OTQ5
-NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC
-0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYz
-NzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU3MDIwODUsLTc5MjE4MTc3OCwzNT
+M5MTYwNjcsLTE1NjMzNDg4ODMsLTEyNjk1MjA2OTYsLTgzNDk0
+OTczLC0xMDMyNDA0NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0Mi
+wtMTYwMDg1Njk4MiwtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2
+Mzc1MDU2Miw5MDc2ODQzODAsNzMwOTk4MTE2XX0=
 -->

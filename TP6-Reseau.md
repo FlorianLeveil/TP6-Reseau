@@ -798,10 +798,36 @@ ONBOOT=yes
     inet6 fe80::a00:27ff:fe87:3f40/64 scope link
        valid_lft forever preferred_lft forever
 ```
+## 4. Serveur DNS
+### Mise en place
+
+Sur  `server1.tp6.b1`  :
+```
+# Installation du serveur DNS
+sudo yum install -y bind*
+
+# Edition du fichier de configuration
+sudo vi /etc/named.conf
+
+# Edition des fichiers de zone
+sudo vi /var/named/forward.tp6.b1
+sudo vi /var/named/reverse.tp6.b1
+
+# Ouvrir les ports firewall concernés
+sudo firewall-cmd --add-port=53/tcp --permanent
+sudo firewall-cmd --add-port=53/udp --permanent
+sudo firewall-cmd --reload
+
+# Démarrage du service DNS
+sudo systemctl start named
+
+# Faire en sorte que le service démarre au boot de la VM
+sudo systemctl enable named
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjE4MTc3OCwzNTM5MTYwNjcsLTE1Nj
-MzNDg4ODMsLTEyNjk1MjA2OTYsLTgzNDk0OTczLC0xMDMyNDA0
-NDU0LC0yODMzNjE0MzUsLTEyNDYxNDk0MiwtMTYwMDg1Njk4Mi
-wtMTI0MzkyNTQyMiwxOTU0NzAzNzg0LDk2Mzc1MDU2Miw5MDc2
-ODQzODAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjAzMTE3NjU4MiwtNzkyMTgxNzc4LDM1Mz
+kxNjA2NywtMTU2MzM0ODg4MywtMTI2OTUyMDY5NiwtODM0OTQ5
+NzMsLTEwMzI0MDQ0NTQsLTI4MzM2MTQzNSwtMTI0NjE0OTQyLC
+0xNjAwODU2OTgyLC0xMjQzOTI1NDIyLDE5NTQ3MDM3ODQsOTYz
+NzUwNTYyLDkwNzY4NDM4MCw3MzA5OTgxMTZdfQ==
 -->
